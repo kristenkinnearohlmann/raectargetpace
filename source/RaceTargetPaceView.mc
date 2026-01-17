@@ -76,17 +76,25 @@ class RaceTargetPaceView extends WatchUi.DataField {
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
 
         // Draw label at the top
-        dc.drawText(width / 2, 20, Graphics.FONT_MEDIUM, "Mile " + _currentMile, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(width / 2, 15, Graphics.FONT_MEDIUM, "Mile " + _currentMile, Graphics.TEXT_JUSTIFY_CENTER);
 
         // Draw target pace in the center, large
-        dc.drawText(width / 2, height / 2 - 45, Graphics.FONT_LARGE, _targetPace, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(width / 2, height / 2 - 65, Graphics.FONT_SYSTEM_NUMBER_HOT, _targetPace, Graphics.TEXT_JUSTIFY_CENTER);
 
-        dc.drawText(width / 2, height / 2 - 15, Graphics.FONT_XTINY, "Target", Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(width / 2, height / 2 - 10, Graphics.FONT_XTINY, "Target", Graphics.TEXT_JUSTIFY_CENTER);
+
+        // Set the line color
+        dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
+
+        // Draw a horizontal line across the middle
+        // Example: From (0, screenHeight / 2) to (screenWidth, screenHeight / 2)
+        dc.drawLine(0, height / 1.68, width, height / 1.68);
+
 
         // Draw current pace below
-        dc.drawText(width / 2, height / 2 + 25, Graphics.FONT_LARGE, _currentPace, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(width / 2, height / 2 + 30, Graphics.FONT_SYSTEM_NUMBER_HOT, _currentPace, Graphics.TEXT_JUSTIFY_CENTER);
 
-        dc.drawText(width / 2, height / 2 + 55, Graphics.FONT_XTINY, "Current", Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(width / 2, height / 2 + 85, Graphics.FONT_XTINY, "Current", Graphics.TEXT_JUSTIFY_CENTER);
     }
 
 }

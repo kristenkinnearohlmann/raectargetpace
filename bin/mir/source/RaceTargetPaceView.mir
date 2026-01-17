@@ -279,9 +279,9 @@ _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_sou
     }
     [ @file = "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc"; @line = 69; @symbol_functiondef = [onUpdate,69,13,21]; @symbol_param<0> = [dc,69,22,24]; @symbol_param<0>_type<0> = [Graphics,69,28,36]; @symbol_param<0>_type<1> = [Dc,69,37,39]; ]
     function onUpdate(dc as Graphics.Dc) as Void {
-_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_69_49_90_4_start:
+_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_69_49_98_4_start:
 [ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 70 8 ]
-        [ "_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_69_49_90_4_start" "_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_69_49_90_4_stop" ]
+        [ "_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_69_49_98_4_start" "_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_69_49_98_4_stop" ]
         %width.1 = local;
         symbol [ width %width.1 70 12 17 ];
         %tmp.1 = lgetv %dc;
@@ -292,7 +292,7 @@ _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_sou
         lputv %width.1 %tmp.3;
         symbol [ width %width.1 70 12 17 ];
 [ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 71 8 ]
-        [ "_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_69_49_90_4_start" "_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_69_49_90_4_stop" ]
+        [ "_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_69_49_98_4_start" "_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_69_49_98_4_stop" ]
         %height.2 = local;
         symbol [ height %height.2 71 12 18 ];
         %tmp.4 = lgetv %dc;
@@ -345,7 +345,7 @@ _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_sou
         symbol [ width %tmp.23 79 20 25 ];
         %tmp.24 = 2;
         %tmp.25 = div %tmp.23 %tmp.24;
-        %tmp.26 = 20;
+        %tmp.26 = 15;
         symbol [ Graphics %tmp.27 79 35 43 ];
         %tmp.27 = getm $.Toybox.Graphics;
         symbol [ FONT_MEDIUM %tmp.28 79 44 55 ];
@@ -372,17 +372,17 @@ _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_sou
         symbol [ height %tmp.40 82 31 37 ];
         %tmp.41 = 2;
         %tmp.42 = div %tmp.40 %tmp.41;
-        %tmp.43 = 45;
+        %tmp.43 = 65;
         %tmp.44 = sub %tmp.42 %tmp.43;
         symbol [ Graphics %tmp.45 82 48 56 ];
         %tmp.45 = getm $.Toybox.Graphics;
-        symbol [ FONT_LARGE %tmp.46 82 57 67 ];
-        %tmp.46 = getv %tmp.45 :FONT_LARGE;
-        symbol [ _targetPace %tmp.48 82 69 80 ];
+        symbol [ FONT_SYSTEM_NUMBER_HOT %tmp.46 82 57 79 ];
+        %tmp.46 = getv %tmp.45 :FONT_SYSTEM_NUMBER_HOT;
+        symbol [ _targetPace %tmp.48 82 81 92 ];
         %tmp.48 = getv ? :_targetPace;
-        symbol [ Graphics %tmp.49 82 82 90 ];
+        symbol [ Graphics %tmp.49 82 94 102 ];
         %tmp.49 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.50 82 91 110 ];
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.50 82 103 122 ];
         %tmp.50 = getv %tmp.49 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.35 %tmp.36(%tmp.39, %tmp.44, %tmp.46, %tmp.48, %tmp.50);
 [ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 84 8 ]
@@ -398,7 +398,7 @@ _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_sou
         symbol [ height %tmp.56 84 31 37 ];
         %tmp.57 = 2;
         %tmp.58 = div %tmp.56 %tmp.57;
-        %tmp.59 = 15;
+        %tmp.59 = 10;
         %tmp.60 = sub %tmp.58 %tmp.59;
         symbol [ Graphics %tmp.61 84 48 56 ];
         %tmp.61 = getm $.Toybox.Graphics;
@@ -413,55 +413,86 @@ _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_sou
 [ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 87 8 ]
         %tmp.66 = lgetv %dc;
         symbol [ dc %tmp.66 87 8 10 ];
-        symbol [ drawText %tmp.67 87 11 19 ];
-        %tmp.67 = getv function %tmp.66 :drawText;
-        %tmp.68 = lgetv %width.1;
-        symbol [ width %tmp.68 87 20 25 ];
-        %tmp.69 = 2;
-        %tmp.70 = div %tmp.68 %tmp.69;
-        %tmp.71 = lgetv %height.2;
-        symbol [ height %tmp.71 87 31 37 ];
-        %tmp.72 = 2;
-        %tmp.73 = div %tmp.71 %tmp.72;
-        %tmp.74 = 25;
-        %tmp.75 = add %tmp.73 %tmp.74;
-        symbol [ Graphics %tmp.76 87 48 56 ];
-        %tmp.76 = getm $.Toybox.Graphics;
-        symbol [ FONT_LARGE %tmp.77 87 57 67 ];
-        %tmp.77 = getv %tmp.76 :FONT_LARGE;
-        symbol [ _currentPace %tmp.79 87 69 81 ];
-        %tmp.79 = getv ? :_currentPace;
-        symbol [ Graphics %tmp.80 87 83 91 ];
-        %tmp.80 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.81 87 92 111 ];
-        %tmp.81 = getv %tmp.80 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.66 %tmp.67(%tmp.70, %tmp.75, %tmp.77, %tmp.79, %tmp.81);
-[ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 89 8 ]
+        symbol [ setColor %tmp.67 87 11 19 ];
+        %tmp.67 = getv function %tmp.66 :setColor;
+        symbol [ Graphics %tmp.68 87 20 28 ];
+        %tmp.68 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_GRAY %tmp.69 87 29 42 ];
+        %tmp.69 = getv %tmp.68 :COLOR_DK_GRAY;
+        symbol [ Graphics %tmp.70 87 44 52 ];
+        %tmp.70 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.71 87 53 70 ];
+        %tmp.71 = getv %tmp.70 :COLOR_TRANSPARENT;
+        invoke %tmp.66 %tmp.67(%tmp.69, %tmp.71);
+[ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 91 8 ]
+        %tmp.72 = lgetv %dc;
+        symbol [ dc %tmp.72 91 8 10 ];
+        symbol [ drawLine %tmp.73 91 11 19 ];
+        %tmp.73 = getv function %tmp.72 :drawLine;
+        %tmp.74 = 0;
+        %tmp.75 = lgetv %height.2;
+        symbol [ height %tmp.75 91 23 29 ];
+        %tmp.76 = 1.68;
+        %tmp.77 = div %tmp.75 %tmp.76;
+        %tmp.78 = lgetv %width.1;
+        symbol [ width %tmp.78 91 38 43 ];
+        %tmp.79 = lgetv %height.2;
+        symbol [ height %tmp.79 91 45 51 ];
+        %tmp.80 = 1.68;
+        %tmp.81 = div %tmp.79 %tmp.80;
+        invoke %tmp.72 %tmp.73(%tmp.74, %tmp.77, %tmp.78, %tmp.81);
+[ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 95 8 ]
         %tmp.82 = lgetv %dc;
-        symbol [ dc %tmp.82 89 8 10 ];
-        symbol [ drawText %tmp.83 89 11 19 ];
+        symbol [ dc %tmp.82 95 8 10 ];
+        symbol [ drawText %tmp.83 95 11 19 ];
         %tmp.83 = getv function %tmp.82 :drawText;
         %tmp.84 = lgetv %width.1;
-        symbol [ width %tmp.84 89 20 25 ];
+        symbol [ width %tmp.84 95 20 25 ];
         %tmp.85 = 2;
         %tmp.86 = div %tmp.84 %tmp.85;
         %tmp.87 = lgetv %height.2;
-        symbol [ height %tmp.87 89 31 37 ];
+        symbol [ height %tmp.87 95 31 37 ];
         %tmp.88 = 2;
         %tmp.89 = div %tmp.87 %tmp.88;
-        %tmp.90 = 55;
+        %tmp.90 = 30;
         %tmp.91 = add %tmp.89 %tmp.90;
-        symbol [ Graphics %tmp.92 89 48 56 ];
+        symbol [ Graphics %tmp.92 95 48 56 ];
         %tmp.92 = getm $.Toybox.Graphics;
-        symbol [ FONT_XTINY %tmp.93 89 57 67 ];
-        %tmp.93 = getv %tmp.92 :FONT_XTINY;
-        %tmp.94 = "Current";
-        symbol [ Graphics %tmp.95 89 80 88 ];
-        %tmp.95 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.96 89 89 108 ];
-        %tmp.96 = getv %tmp.95 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.82 %tmp.83(%tmp.86, %tmp.91, %tmp.93, %tmp.94, %tmp.96);
-_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_69_49_90_4_stop:
+        symbol [ FONT_SYSTEM_NUMBER_HOT %tmp.93 95 57 79 ];
+        %tmp.93 = getv %tmp.92 :FONT_SYSTEM_NUMBER_HOT;
+        symbol [ _currentPace %tmp.95 95 81 93 ];
+        %tmp.95 = getv ? :_currentPace;
+        symbol [ Graphics %tmp.96 95 95 103 ];
+        %tmp.96 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.97 95 104 123 ];
+        %tmp.97 = getv %tmp.96 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.82 %tmp.83(%tmp.86, %tmp.91, %tmp.93, %tmp.95, %tmp.97);
+[ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 97 8 ]
+        %tmp.98 = lgetv %dc;
+        symbol [ dc %tmp.98 97 8 10 ];
+        symbol [ drawText %tmp.99 97 11 19 ];
+        %tmp.99 = getv function %tmp.98 :drawText;
+        %tmp.100 = lgetv %width.1;
+        symbol [ width %tmp.100 97 20 25 ];
+        %tmp.101 = 2;
+        %tmp.102 = div %tmp.100 %tmp.101;
+        %tmp.103 = lgetv %height.2;
+        symbol [ height %tmp.103 97 31 37 ];
+        %tmp.104 = 2;
+        %tmp.105 = div %tmp.103 %tmp.104;
+        %tmp.106 = 85;
+        %tmp.107 = add %tmp.105 %tmp.106;
+        symbol [ Graphics %tmp.108 97 48 56 ];
+        %tmp.108 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.109 97 57 67 ];
+        %tmp.109 = getv %tmp.108 :FONT_XTINY;
+        %tmp.110 = "Current";
+        symbol [ Graphics %tmp.111 97 80 88 ];
+        %tmp.111 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.112 97 89 108 ];
+        %tmp.112 = getv %tmp.111 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.98 %tmp.99(%tmp.102, %tmp.107, %tmp.109, %tmp.110, %tmp.112);
+_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_69_49_98_4_stop:
     }
 }
 [ @file = "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc"; @line = 1; ]
