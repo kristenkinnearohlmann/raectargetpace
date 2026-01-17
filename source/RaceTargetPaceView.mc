@@ -25,8 +25,8 @@ class RaceTargetPaceView extends WatchUi.DataField {
     // guarantee that compute() will be called before onUpdate().
     function compute(info as Activity.Info) as Void {
         // See Activity.Info in the documentation for available information.
-        // var distance = info.elapsedDistance;
-        var distance = 1609.34 * 2.5; // For testing, simulate 2.5 miles completed
+        var distance = info.elapsedDistance;
+        // var distance = 1609.34 * 2.5; // For testing, simulate 2.5 miles completed
 
         if (distance == null) {
             _targetPace = "--";

@@ -76,32 +76,33 @@ _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_sou
     [ @file = "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc"; @line = 26; @symbol_functiondef = [compute,26,13,20]; @symbol_param<0> = [info,26,21,25]; @symbol_param<0>_type<0> = [Activity,26,29,37]; @symbol_param<0>_type<1> = [Info,26,38,42]; ]
     function compute(info as Activity.Info) as Void {
 _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_26_52_67_4_start:
-[ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 29 8 ]
+[ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 28 8 ]
         [ "_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_26_52_67_4_start" "_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_26_52_67_4_stop" ]
         %distance.1 = local;
-        symbol [ distance %distance.1 29 12 20 ];
-        %tmp.1 = 1609.34;
-        %tmp.2 = 2.5;
-        %tmp.3 = mul %tmp.1 %tmp.2;
-        lputv %distance.1 %tmp.3;
-        symbol [ distance %distance.1 29 12 20 ];
+        symbol [ distance %distance.1 28 12 20 ];
+        %tmp.1 = lgetv %info;
+        symbol [ info %tmp.1 28 23 27 ];
+        symbol [ elapsedDistance %tmp.2 28 28 43 ];
+        %tmp.2 = getv %tmp.1 :elapsedDistance;
+        lputv %distance.1 %tmp.2;
+        symbol [ distance %distance.1 28 12 20 ];
 [ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 31 8 ]
 _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_31_8_35_8_if_stmt:
-        %tmp.4 = lgetv %distance.1;
-        symbol [ distance %tmp.4 31 12 20 ];
-        %tmp.5 = null;
-        %tmp.6 = eq %tmp.4 %tmp.5;
-        bf %tmp.6 @_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_31_8_35_8_if_end;
+        %tmp.3 = lgetv %distance.1;
+        symbol [ distance %tmp.3 31 12 20 ];
+        %tmp.4 = null;
+        %tmp.5 = eq %tmp.3 %tmp.4;
+        bf %tmp.5 @_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_31_8_35_8_if_end;
 _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_31_8_35_8_if_true:
 _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_31_30_35_8_start:
 [ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 32 12 ]
-        %tmp.7 = "--";
+        %tmp.6 = "--";
         symbol [ _targetPace ? 32 12 23 ];
-        putv self :_targetPace %tmp.7;
+        putv self :_targetPace %tmp.6;
 [ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 33 12 ]
-        %tmp.8 = "--";
+        %tmp.7 = "--";
         symbol [ _currentPace ? 33 12 24 ];
-        putv self :_currentPace %tmp.8;
+        putv self :_currentPace %tmp.7;
 [ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 34 12 ]
         ret ?;
 _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_31_30_35_8_stop:
@@ -111,166 +112,166 @@ _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_sou
         [ "_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_26_52_67_4_start" "_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_26_52_67_4_stop" ]
         %milesCompleted.2 = local;
         symbol [ milesCompleted %milesCompleted.2 38 12 26 ];
-        %tmp.9 = lgetv %distance.1;
-        symbol [ distance %tmp.9 38 29 37 ];
-        %tmp.10 = 1609.34;
-        %tmp.11 = div %tmp.9 %tmp.10;
-        lputv %milesCompleted.2 %tmp.11;
+        %tmp.8 = lgetv %distance.1;
+        symbol [ distance %tmp.8 38 29 37 ];
+        %tmp.9 = 1609.34;
+        %tmp.10 = div %tmp.8 %tmp.9;
+        lputv %milesCompleted.2 %tmp.10;
         symbol [ milesCompleted %milesCompleted.2 38 12 26 ];
 [ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 41 8 ]
-        symbol [ Math %tmp.12 41 23 27 ];
-        %tmp.12 = getm $.Toybox.Math;
-        symbol [ floor %tmp.13 41 28 33 ];
-        %tmp.13 = getv function %tmp.12 :floor;
-        %tmp.14 = lgetv %milesCompleted.2;
-        symbol [ milesCompleted %tmp.14 41 34 48 ];
-        %tmp.15 = invoke %tmp.12 %tmp.13(%tmp.14);
-        symbol [ toNumber %tmp.16 41 50 58 ];
-        %tmp.16 = getv function %tmp.15 :toNumber;
-        %tmp.17 = invoke %tmp.15 %tmp.16();
-        %tmp.18 = 1;
-        %tmp.19 = add %tmp.17 %tmp.18;
+        symbol [ Math %tmp.11 41 23 27 ];
+        %tmp.11 = getm $.Toybox.Math;
+        symbol [ floor %tmp.12 41 28 33 ];
+        %tmp.12 = getv function %tmp.11 :floor;
+        %tmp.13 = lgetv %milesCompleted.2;
+        symbol [ milesCompleted %tmp.13 41 34 48 ];
+        %tmp.14 = invoke %tmp.11 %tmp.12(%tmp.13);
+        symbol [ toNumber %tmp.15 41 50 58 ];
+        %tmp.15 = getv function %tmp.14 :toNumber;
+        %tmp.16 = invoke %tmp.14 %tmp.15();
+        %tmp.17 = 1;
+        %tmp.18 = add %tmp.16 %tmp.17;
         symbol [ _currentMile ? 41 8 20 ];
-        putv self :_currentMile %tmp.19;
+        putv self :_currentMile %tmp.18;
 [ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 44 8 ]
 _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_44_8_48_8_if_stmt:
-        symbol [ _dictPaces %tmp.21 44 12 22 ];
-        %tmp.21 = getv ? :_dictPaces;
-        symbol [ hasKey %tmp.22 44 23 29 ];
-        %tmp.22 = getv function %tmp.21 :hasKey;
-        symbol [ _currentMile %tmp.24 44 30 42 ];
-        %tmp.24 = getv ? :_currentMile;
-        %tmp.25 = invoke %tmp.21 %tmp.22(%tmp.24);
-        bf %tmp.25 @_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_44_8_48_8_if_else_false;
+        symbol [ _dictPaces %tmp.20 44 12 22 ];
+        %tmp.20 = getv ? :_dictPaces;
+        symbol [ hasKey %tmp.21 44 23 29 ];
+        %tmp.21 = getv function %tmp.20 :hasKey;
+        symbol [ _currentMile %tmp.23 44 30 42 ];
+        %tmp.23 = getv ? :_currentMile;
+        %tmp.24 = invoke %tmp.20 %tmp.21(%tmp.23);
+        bf %tmp.24 @_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_44_8_48_8_if_else_false;
 _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_44_8_48_8_if_true:
 _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_44_45_46_8_start:
 [ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 45 12 ]
-        symbol [ _dictPaces %tmp.27 45 26 36 ];
-        %tmp.27 = getv ? :_dictPaces;
-        symbol [ _currentMile %tmp.29 45 37 49 ];
-        %tmp.29 = getv ? :_currentMile;
-        %tmp.30 = agetv %tmp.27 %tmp.29;
+        symbol [ _dictPaces %tmp.26 45 26 36 ];
+        %tmp.26 = getv ? :_dictPaces;
+        symbol [ _currentMile %tmp.28 45 37 49 ];
+        %tmp.28 = getv ? :_currentMile;
+        %tmp.29 = agetv %tmp.26 %tmp.28;
         symbol [ _targetPace ? 45 12 23 ];
-        putv self :_targetPace %tmp.30;
+        putv self :_targetPace %tmp.29;
 _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_44_45_46_8_stop:
         goto @_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_44_8_48_8_if_end;
 _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_44_8_48_8_if_else_false:
 _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_46_15_48_8_start:
 [ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 47 12 ]
-        %tmp.31 = "--";
+        %tmp.30 = "--";
         symbol [ _targetPace ? 47 12 23 ];
-        putv self :_targetPace %tmp.31;
+        putv self :_targetPace %tmp.30;
 _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_46_15_48_8_stop:
 _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_44_8_48_8_if_end:
 [ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 52 8 ]
         [ "_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_26_52_67_4_start" "_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_26_52_67_4_stop" ]
         %currentSpeed.3 = local;
         symbol [ currentSpeed %currentSpeed.3 52 12 24 ];
-        %tmp.32 = lgetv %info;
-        symbol [ info %tmp.32 52 27 31 ];
-        symbol [ currentSpeed %tmp.33 52 32 44 ];
-        %tmp.33 = getv %tmp.32 :currentSpeed;
-        lputv %currentSpeed.3 %tmp.33;
+        %tmp.31 = lgetv %info;
+        symbol [ info %tmp.31 52 27 31 ];
+        symbol [ currentSpeed %tmp.32 52 32 44 ];
+        %tmp.32 = getv %tmp.31 :currentSpeed;
+        lputv %currentSpeed.3 %tmp.32;
         symbol [ currentSpeed %currentSpeed.3 52 12 24 ];
 [ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 54 8 ]
 _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_8_64_8_if_stmt:
 _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_12_54_51_begin:
-        %tmp.34 = lgetv %currentSpeed.3;
-        symbol [ currentSpeed %tmp.34 54 12 24 ];
-        %tmp.35 = null;
-        %tmp.36 = ne %tmp.34 %tmp.35;
-        bf %tmp.36 @_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_8_64_8_if_else_false;
+        %tmp.33 = lgetv %currentSpeed.3;
+        symbol [ currentSpeed %tmp.33 54 12 24 ];
+        %tmp.34 = null;
+        %tmp.35 = ne %tmp.33 %tmp.34;
+        bf %tmp.35 @_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_8_64_8_if_else_false;
 _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_36_54_51_true:
-        %tmp.37 = lgetv %currentSpeed.3;
-        symbol [ currentSpeed %tmp.37 54 36 48 ];
-        %tmp.38 = as %tmp.37 { (!Null) };
-        %tmp.39 = 0;
-        %tmp.40 = gt %tmp.38 %tmp.39;
-        push %tmp.40;
+        %tmp.36 = lgetv %currentSpeed.3;
+        symbol [ currentSpeed %tmp.36 54 36 48 ];
+        %tmp.37 = as %tmp.36 { (!Null) };
+        %tmp.38 = 0;
+        %tmp.39 = gt %tmp.37 %tmp.38;
+        push %tmp.39;
 _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_36_54_51_end:
-        %tmp.41 = phi [%tmp.36 @_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_12_54_51_begin] [%tmp.40 @_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_36_54_51_true] [%tmp.41 @_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_36_54_51_end];
-        bf %tmp.41 @_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_8_64_8_if_else_false;
+        %tmp.40 = phi [%tmp.35 @_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_12_54_51_begin] [%tmp.39 @_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_36_54_51_true] [%tmp.40 @_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_36_54_51_end];
+        bf %tmp.40 @_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_8_64_8_if_else_false;
 _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_8_64_8_if_true:
 _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_54_62_8_start:
 [ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 56 12 ]
         [ "_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_54_62_8_start" "_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_54_62_8_stop" ]
         %paceSeconds.4 = local;
         symbol [ paceSeconds %paceSeconds.4 56 16 27 ];
-        %tmp.42 = 1609.34;
-        %tmp.43 = lgetv %currentSpeed.3;
-        symbol [ currentSpeed %tmp.43 56 40 52 ];
-        %tmp.44 = as %tmp.43 { (!Null) };
-        %tmp.45 = div %tmp.42 %tmp.44;
-        lputv %paceSeconds.4 %tmp.45;
+        %tmp.41 = 1609.34;
+        %tmp.42 = lgetv %currentSpeed.3;
+        symbol [ currentSpeed %tmp.42 56 40 52 ];
+        %tmp.43 = as %tmp.42 { (!Null) };
+        %tmp.44 = div %tmp.41 %tmp.43;
+        lputv %paceSeconds.4 %tmp.44;
         symbol [ paceSeconds %paceSeconds.4 56 16 27 ];
 [ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 57 12 ]
         [ "_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_54_62_8_start" "_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_54_62_8_stop" ]
         %paceMinutes.5 = local;
         symbol [ paceMinutes %paceMinutes.5 57 16 27 ];
-        symbol [ Math %tmp.46 57 30 34 ];
-        %tmp.46 = getm $.Toybox.Math;
-        symbol [ floor %tmp.47 57 35 40 ];
-        %tmp.47 = getv function %tmp.46 :floor;
-        %tmp.48 = lgetv %paceSeconds.4;
-        symbol [ paceSeconds %tmp.48 57 41 52 ];
-        %tmp.49 = 60;
-        %tmp.50 = div %tmp.48 %tmp.49;
-        %tmp.51 = invoke %tmp.46 %tmp.47(%tmp.50);
-        symbol [ toNumber %tmp.52 57 59 67 ];
-        %tmp.52 = getv function %tmp.51 :toNumber;
-        %tmp.53 = invoke %tmp.51 %tmp.52();
-        lputv %paceMinutes.5 %tmp.53;
+        symbol [ Math %tmp.45 57 30 34 ];
+        %tmp.45 = getm $.Toybox.Math;
+        symbol [ floor %tmp.46 57 35 40 ];
+        %tmp.46 = getv function %tmp.45 :floor;
+        %tmp.47 = lgetv %paceSeconds.4;
+        symbol [ paceSeconds %tmp.47 57 41 52 ];
+        %tmp.48 = 60;
+        %tmp.49 = div %tmp.47 %tmp.48;
+        %tmp.50 = invoke %tmp.45 %tmp.46(%tmp.49);
+        symbol [ toNumber %tmp.51 57 59 67 ];
+        %tmp.51 = getv function %tmp.50 :toNumber;
+        %tmp.52 = invoke %tmp.50 %tmp.51();
+        lputv %paceMinutes.5 %tmp.52;
         symbol [ paceMinutes %paceMinutes.5 57 16 27 ];
 [ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 58 12 ]
         [ "_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_54_62_8_start" "_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_54_62_8_stop" ]
         %remainderSeconds.6 = local;
         symbol [ remainderSeconds %remainderSeconds.6 58 16 32 ];
-        %tmp.54 = lgetv %paceSeconds.4;
-        symbol [ paceSeconds %tmp.54 58 35 46 ];
-        %tmp.55 = lgetv %paceMinutes.5;
-        symbol [ paceMinutes %tmp.55 58 50 61 ];
-        %tmp.56 = 60;
-        %tmp.57 = mul %tmp.55 %tmp.56;
-        %tmp.58 = sub %tmp.54 %tmp.57;
-        lputv %remainderSeconds.6 %tmp.58;
+        %tmp.53 = lgetv %paceSeconds.4;
+        symbol [ paceSeconds %tmp.53 58 35 46 ];
+        %tmp.54 = lgetv %paceMinutes.5;
+        symbol [ paceMinutes %tmp.54 58 50 61 ];
+        %tmp.55 = 60;
+        %tmp.56 = mul %tmp.54 %tmp.55;
+        %tmp.57 = sub %tmp.53 %tmp.56;
+        lputv %remainderSeconds.6 %tmp.57;
         symbol [ remainderSeconds %remainderSeconds.6 58 16 32 ];
 [ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 59 12 ]
         [ "_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_54_62_8_start" "_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_54_62_8_stop" ]
         %paceRemainingSeconds.7 = local;
         symbol [ paceRemainingSeconds %paceRemainingSeconds.7 59 16 36 ];
-        %tmp.59 = lgetv %remainderSeconds.6;
-        symbol [ remainderSeconds %tmp.59 59 39 55 ];
-        symbol [ toNumber %tmp.60 59 56 64 ];
-        %tmp.60 = getv function %tmp.59 :toNumber;
-        %tmp.61 = invoke %tmp.59 %tmp.60();
-        lputv %paceRemainingSeconds.7 %tmp.61;
+        %tmp.58 = lgetv %remainderSeconds.6;
+        symbol [ remainderSeconds %tmp.58 59 39 55 ];
+        symbol [ toNumber %tmp.59 59 56 64 ];
+        %tmp.59 = getv function %tmp.58 :toNumber;
+        %tmp.60 = invoke %tmp.58 %tmp.59();
+        lputv %paceRemainingSeconds.7 %tmp.60;
         symbol [ paceRemainingSeconds %paceRemainingSeconds.7 59 16 36 ];
 [ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 61 12 ]
-        %tmp.62 = lgetv %paceMinutes.5;
-        symbol [ paceMinutes %tmp.62 61 27 38 ];
-        symbol [ format %tmp.63 61 39 45 ];
-        %tmp.63 = getv function %tmp.62 :format;
-        %tmp.64 = "%d";
-        %tmp.65 = invoke %tmp.62 %tmp.63(%tmp.64);
-        %tmp.66 = ":";
-        %tmp.67 = add %tmp.65 %tmp.66;
-        %tmp.68 = lgetv %paceRemainingSeconds.7;
-        symbol [ paceRemainingSeconds %tmp.68 61 60 80 ];
-        symbol [ format %tmp.69 61 81 87 ];
-        %tmp.69 = getv function %tmp.68 :format;
-        %tmp.70 = "%02d";
-        %tmp.71 = invoke %tmp.68 %tmp.69(%tmp.70);
-        %tmp.72 = add %tmp.67 %tmp.71;
+        %tmp.61 = lgetv %paceMinutes.5;
+        symbol [ paceMinutes %tmp.61 61 27 38 ];
+        symbol [ format %tmp.62 61 39 45 ];
+        %tmp.62 = getv function %tmp.61 :format;
+        %tmp.63 = "%d";
+        %tmp.64 = invoke %tmp.61 %tmp.62(%tmp.63);
+        %tmp.65 = ":";
+        %tmp.66 = add %tmp.64 %tmp.65;
+        %tmp.67 = lgetv %paceRemainingSeconds.7;
+        symbol [ paceRemainingSeconds %tmp.67 61 60 80 ];
+        symbol [ format %tmp.68 61 81 87 ];
+        %tmp.68 = getv function %tmp.67 :format;
+        %tmp.69 = "%02d";
+        %tmp.70 = invoke %tmp.67 %tmp.68(%tmp.69);
+        %tmp.71 = add %tmp.66 %tmp.70;
         symbol [ _currentPace ? 61 12 24 ];
-        putv self :_currentPace %tmp.72;
+        putv self :_currentPace %tmp.71;
 _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_54_62_8_stop:
         goto @_Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_8_64_8_if_end;
 _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_8_64_8_if_else_false:
 _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_62_15_64_8_start:
 [ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 63 12 ]
-        %tmp.73 = "8:00";
+        %tmp.72 = "8:00";
         symbol [ _currentPace ? 63 12 24 ];
-        putv self :_currentPace %tmp.73;
+        putv self :_currentPace %tmp.72;
 _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_62_15_64_8_stop:
 _Users_kristenkinnear_ohlmann_Documents__projects_source_code_RaceTargetPace_source_RaceTargetPaceView_mc_54_8_64_8_if_end:
 [ "/Users/kristenkinnear-ohlmann/Documents/_projects/source/code/RaceTargetPace/source/RaceTargetPaceView.mc" 66 8 ]
