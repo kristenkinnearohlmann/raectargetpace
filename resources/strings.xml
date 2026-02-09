@@ -1,0 +1,54 @@
+<strings>
+    <string id="AppName">Race Target Pace</string>
+    
+    <!-- Race Distance Settings -->
+    <string id="RaceDistanceTitle">Race Distance</string>
+    <string id="Distance1Mile">1 Mile</string>
+    <string id="Distance5K">5K (3.1 mi)</string>
+    <string id="Distance10K">10K (6.2 mi)</string>
+    <string id="DistanceHalfMarathon">Half Marathon (13.1 mi)</string>
+    <string id="DistanceMarathon">Marathon (26.2 mi)</string>
+    
+    <!-- Pace Settings - Miles 1-3 (All races) -->
+    <string id="Pace1Title">Mile 1 Pace</string>
+    <string id="Pace2Title">Mile 2 Pace</string>
+    <string id="Pace3Title">Mile 3 Pace</string>
+    
+    <!-- Mile 4 (5K Finish) -->
+    <string id="Pace4Title">Mile 4 Pace (5K Finish)</string>
+    
+    <!-- Miles 5-6 (10K only) -->
+    <string id="Pace5Title">Mile 5 Pace</string>
+    <string id="Pace6Title">Mile 6 Pace</string>
+    
+    <!-- Mile 7 (10K Finish) -->
+    <string id="Pace7Title">Mile 7 Pace (10K Finish)</string>
+    
+    <!-- Miles 8-13 (Half+ only) -->
+    <string id="Pace8Title">Mile 8 Pace</string>
+    <string id="Pace9Title">Mile 9 Pace</string>
+    <string id="Pace10Title">Mile 10 Pace</string>
+    <string id="Pace11Title">Mile 11 Pace</string>
+    <string id="Pace12Title">Mile 12 Pace</string>
+    <string id="Pace13Title">Mile 13 Pace</string>
+    
+    <!-- Mile 14 (Half Marathon Finish) -->
+    <string id="Pace14Title">Mile 14 Pace (Half Finish)</string>
+    
+    <!-- Miles 15-26 (Marathon only) -->
+    <string id="Pace15Title">Mile 15 Pace</string>
+    <string id="Pace16Title">Mile 16 Pace</string>
+    <string id="Pace17Title">Mile 17 Pace</string>
+    <string id="Pace18Title">Mile 18 Pace</string>
+    <string id="Pace19Title">Mile 19 Pace</string>
+    <string id="Pace20Title">Mile 20 Pace</string>
+    <string id="Pace21Title">Mile 21 Pace</string>
+    <string id="Pace22Title">Mile 22 Pace</string>
+    <string id="Pace23Title">Mile 23 Pace</string>
+    <string id="Pace24Title">Mile 24 Pace</string>
+    <string id="Pace25Title">Mile 25 Pace</string>
+    <string id="Pace26Title">Mile 26 Pace</string>
+    
+    <!-- Mile 27 (Marathon Finish) -->
+    <string id="Pace27Title">Mile 27 Pace (Marathon Finish)</string>
+</strings>

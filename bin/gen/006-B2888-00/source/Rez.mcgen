@@ -10,6 +10,39 @@ module Rez {
     } // Drawables
 
     module Strings {
+        (:initialized) var Pace13Title as ResourceId;
+        (:initialized) var Pace16Title as ResourceId;
+        (:initialized) var Pace10Title as ResourceId;
+        (:initialized) var DistanceMarathon as ResourceId;
         (:initialized) var AppName as ResourceId;
+        (:initialized) var DistanceHalfMarathon as ResourceId;
+        (:initialized) var Pace25Title as ResourceId;
+        (:initialized) var Pace22Title as ResourceId;
+        (:initialized) var Pace14Title as ResourceId;
+        (:initialized) var Pace18Title as ResourceId;
+        (:initialized) var Pace2Title as ResourceId;
+        (:initialized) var Pace8Title as ResourceId;
+        (:initialized) var Distance5K as ResourceId;
+        (:initialized) var Pace5Title as ResourceId;
+        (:initialized) var Pace11Title as ResourceId;
+        (:initialized) var Pace7Title as ResourceId;
+        (:initialized) var Pace1Title as ResourceId;
+        (:initialized) var Pace26Title as ResourceId;
+        (:initialized) var Distance1Mile as ResourceId;
+        (:initialized) var Pace17Title as ResourceId;
+        (:initialized) var Pace12Title as ResourceId;
+        (:initialized) var RaceDistanceTitle as ResourceId;
+        (:initialized) var Pace15Title as ResourceId;
+        (:initialized) var Pace20Title as ResourceId;
+        (:initialized) var Pace23Title as ResourceId;
+        (:initialized) var Distance10K as ResourceId;
+        (:initialized) var Pace4Title as ResourceId;
+        (:initialized) var Pace9Title as ResourceId;
+        (:initialized) var Pace6Title as ResourceId;
+        (:initialized) var Pace21Title as ResourceId;
+        (:initialized) var Pace3Title as ResourceId;
+        (:initialized) var Pace27Title as ResourceId;
+        (:initialized) var Pace19Title as ResourceId;
+        (:initialized) var Pace24Title as ResourceId;
     } // Strings
 } // Rez
