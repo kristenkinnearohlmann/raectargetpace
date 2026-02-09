@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="C:\Users\kkinn\_Projects\code\raectargetpace\manifest.xml"/>
+<pcToLineNum>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="1" lineNum="10" parent="globals/RaceTargetPaceView" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="1" lineNum="12" parent="globals/RaceTargetPaceView" pc="268435478" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceApp.mc" id="2" lineNum="5" parent="globals/RaceTargetPaceApp" pc="268435844" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceApp.mc" id="3" lineNum="26" parent="globals" pc="268435863" symbol="getApp"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceApp.mc" id="3" lineNum="27" parent="globals" pc="268435873" symbol="getApp"/>
+<entry filename="c:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\bin\\gen\\006-B2888-00\\source\\Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435889" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="5" lineNum="26" parent="globals/RaceTargetPaceView" pc="268435913" symbol="compute"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="5" lineNum="28" parent="globals/RaceTargetPaceView" pc="268435917" symbol="compute"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="5" lineNum="31" parent="globals/RaceTargetPaceView" pc="268435927" symbol="compute"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="5" lineNum="32" parent="globals/RaceTargetPaceView" pc="268435933" symbol="compute"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="5" lineNum="33" parent="globals/RaceTargetPaceView" pc="268435946" symbol="compute"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="5" lineNum="34" parent="globals/RaceTargetPaceView" pc="268435959" symbol="compute"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="5" lineNum="38" parent="globals/RaceTargetPaceView" pc="268435963" symbol="compute"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="5" lineNum="41" parent="globals/RaceTargetPaceView" pc="268435973" symbol="compute"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="5" lineNum="44" parent="globals/RaceTargetPaceView" pc="268436013" symbol="compute"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="5" lineNum="45" parent="globals/RaceTargetPaceView" pc="268436041" symbol="compute"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="5" lineNum="47" parent="globals/RaceTargetPaceView" pc="268436069" symbol="compute"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="5" lineNum="52" parent="globals/RaceTargetPaceView" pc="268436082" symbol="compute"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="5" lineNum="54" parent="globals/RaceTargetPaceView" pc="268436092" symbol="compute"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="5" lineNum="56" parent="globals/RaceTargetPaceView" pc="268436110" symbol="compute"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="5" lineNum="57" parent="globals/RaceTargetPaceView" pc="268436120" symbol="compute"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="5" lineNum="58" parent="globals/RaceTargetPaceView" pc="268436154" symbol="compute"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="5" lineNum="59" parent="globals/RaceTargetPaceView" pc="268436167" symbol="compute"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="5" lineNum="61" parent="globals/RaceTargetPaceView" pc="268436180" symbol="compute"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="5" lineNum="63" parent="globals/RaceTargetPaceView" pc="268436230" symbol="compute"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="5" lineNum="66" parent="globals/RaceTargetPaceView" pc="268436243" symbol="compute"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="6" lineNum="18" parent="globals/RaceTargetPaceView" pc="268436244" symbol="initialize"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="6" lineNum="19" parent="globals/RaceTargetPaceView" pc="268436246" symbol="initialize"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="7" lineNum="69" parent="globals/RaceTargetPaceView" pc="268436265" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="7" lineNum="70" parent="globals/RaceTargetPaceView" pc="268436269" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="7" lineNum="71" parent="globals/RaceTargetPaceView" pc="268436282" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="7" lineNum="74" parent="globals/RaceTargetPaceView" pc="268436295" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="7" lineNum="75" parent="globals/RaceTargetPaceView" pc="268436317" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="7" lineNum="76" parent="globals/RaceTargetPaceView" pc="268436329" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="7" lineNum="79" parent="globals/RaceTargetPaceView" pc="268436351" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="7" lineNum="82" parent="globals/RaceTargetPaceView" pc="268436400" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="7" lineNum="84" parent="globals/RaceTargetPaceView" pc="268436452" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="7" lineNum="87" parent="globals/RaceTargetPaceView" pc="268436501" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="7" lineNum="91" parent="globals/RaceTargetPaceView" pc="268436523" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="7" lineNum="95" parent="globals/RaceTargetPaceView" pc="268436558" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceView.mc" id="7" lineNum="97" parent="globals/RaceTargetPaceView" pc="268436610" symbol="onUpdate"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceApp.mc" id="8" lineNum="12" parent="globals/RaceTargetPaceApp" pc="268436660" symbol="onStart"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceApp.mc" id="9" lineNum="20" parent="globals/RaceTargetPaceApp" pc="268436663" symbol="getInitialView"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceApp.mc" id="9" lineNum="21" parent="globals/RaceTargetPaceApp" pc="268436665" symbol="getInitialView"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceApp.mc" id="10" lineNum="7" parent="globals/RaceTargetPaceApp" pc="268436702" symbol="initialize"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceApp.mc" id="10" lineNum="8" parent="globals/RaceTargetPaceApp" pc="268436704" symbol="initialize"/>
+<entry filename="C:\\Users\\kkinn\\_Projects\\code\\raectargetpace\\source\\RaceTargetPaceApp.mc" id="11" lineNum="16" parent="globals/RaceTargetPaceApp" pc="268436723" symbol="onStop"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="7" symbol="_currentMile"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="6" object="true" symbol="RaceTargetPaceView"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="12" symbol="AppName"/>
+<entry id="4" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8388631" module="true" symbol="Activity"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry field="true" id="10" symbol="_targetPace"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry id="8389137" method="true" symbol="compute"/>
+<entry field="true" id="9" symbol="_dictPaces"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="11" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="5" object="true" symbol="RaceTargetPaceApp"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry field="true" id="8" symbol="_currentPace"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="8388641" module="true" symbol="Math"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8388635" module="true" symbol="Application"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268436243" name="info" stackId="1" startPc="268435913"/>
+<entry endPc="268436243" name="distance" stackId="2" startPc="268435917"/>
+<entry endPc="268436243" name="milesCompleted" stackId="3" startPc="268435917"/>
+<entry endPc="268436243" name="currentSpeed" stackId="4" startPc="268435917"/>
+<entry endPc="268436226" name="paceSeconds" stackId="5" startPc="268436110"/>
+<entry endPc="268436226" name="paceMinutes" stackId="6" startPc="268436110"/>
+<entry endPc="268436226" name="remainderSeconds" stackId="7" startPc="268436110"/>
+<entry endPc="268436226" name="paceRemainingSeconds" stackId="8" startPc="268436110"/>
+<entry arg="true" endPc="268436659" name="dc" stackId="1" startPc="268436265"/>
+<entry endPc="268436658" name="width" stackId="2" startPc="268436269"/>
+<entry endPc="268436658" name="height" stackId="3" startPc="268436269"/>
+</localVars>
+<deviceInfo deviceVersion="8fc30743a4191ec19bcafa28e3ffcc2b5a958a17" partNumber="006-B2888-00"/>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="55" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/RaceTargetPaceView" offset="126" parentId="globals" symbolId="RaceTargetPaceView" type="class"/>
+<dataEntry label="globals/RaceTargetPaceApp" offset="221" parentId="globals" symbolId="RaceTargetPaceApp" type="class"/>
+<dataEntry label="globals/Rez" offset="292" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/Rez/Drawables" offset="339" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="378" parentId="Rez" symbolId="Strings" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435843" name="&lt;init&gt;" parent="RaceTargetPaceView" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435862" name="&lt;init&gt;" parent="RaceTargetPaceApp" startPc="268435844">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435888" name="getApp" startPc="268435863">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435912" name="&lt;init&gt;" parent="Rez" startPc="268435889">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436243" name="compute" parent="RaceTargetPaceView" startPc="268435913">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436264" name="initialize" parent="RaceTargetPaceView" startPc="268436244">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436659" name="onUpdate" parent="RaceTargetPaceView" startPc="268436265">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436662" name="onStart" parent="RaceTargetPaceApp" startPc="268436660">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436701" name="getInitialView" parent="RaceTargetPaceApp" startPc="268436663">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436722" name="initialize" parent="RaceTargetPaceApp" startPc="268436702">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436725" name="onStop" parent="RaceTargetPaceApp" startPc="268436723">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>
