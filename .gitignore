@@ -1,1 +1,27 @@
-bin/*
+# Build output
+/bin
+/bin/optimized
+*.prg
+*.debug.xml
+*.map
+
+# Compiler temporary files
+*.o
+*.tmp
+/gen
+
+# Keys
+*.der
+*.pem
+
+# IDE/Editor
+.vscode/launch.json
+.history/
+.settings/
+.project
+.classpath
+
+# Misc
+.DS_Store
+Thumbs.db
+secrets.json
