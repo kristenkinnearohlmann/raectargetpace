@@ -1,3 +1,1 @@
-bin/gen
-bin/internal-mir
-bin/mir
+bin/*

@@ -1,0 +1,92 @@
+<settings>
+    <setting propertyKey="@Properties.raceDistance" title="@Strings.RaceDistanceTitle">
+        <settingConfig type="list">
+            <listEntry value="1mile">@Strings.Distance1Mile</listEntry>
+            <listEntry value="5k">@Strings.Distance5K</listEntry>
+            <listEntry value="10k">@Strings.Distance10K</listEntry>
+            <listEntry value="halfMarathon">@Strings.DistanceHalfMarathon</listEntry>
+            <listEntry value="marathon">@Strings.DistanceMarathon</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.pace_1" title="@Strings.Pace1Title">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+    <setting propertyKey="@Properties.pace_2" title="@Strings.Pace2Title">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+    <setting propertyKey="@Properties.pace_3" title="@Strings.Pace3Title">
+        <settingConfig type="alphaNumeric"/> 
+    </setting>
+    <setting propertyKey="@Properties.pace_4" title="@Strings.Pace4Title">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+    <setting propertyKey="@Properties.pace_5" title="@Strings.Pace5Title">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+    <setting propertyKey="@Properties.pace_6" title="@Strings.Pace6Title">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+    <setting propertyKey="@Properties.pace_7" title="@Strings.Pace7Title">
+        <settingConfig type="alphaNumeric"/> 
+    </setting>
+    <setting propertyKey="@Properties.pace_8" title="@Strings.Pace8Title">
+        <settingConfig type="alphaNumeric"/> 
+    </setting>
+    <setting propertyKey="@Properties.pace_9" title="@Strings.Pace9Title">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+    <setting propertyKey="@Properties.pace_10" title="@Strings.Pace10Title">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+    <setting propertyKey="@Properties.pace_11" title="@Strings.Pace11Title">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+    <setting propertyKey="@Properties.pace_12" title="@Strings.Pace12Title">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+    <setting propertyKey="@Properties.pace_13" title="@Strings.Pace13Title">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+    <setting propertyKey="@Properties.pace_14" title="@Strings.Pace14Title">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+    <setting propertyKey="@Properties.pace_15" title="@Strings.Pace15Title">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+    <setting propertyKey="@Properties.pace_16" title="@Strings.Pace16Title">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+    <setting propertyKey="@Properties.pace_17" title="@Strings.Pace17Title">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+    <setting propertyKey="@Properties.pace_18" title="@Strings.Pace18Title">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+    <setting propertyKey="@Properties.pace_19" title="@Strings.Pace19Title">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+    <setting propertyKey="@Properties.pace_20" title="@Strings.Pace20Title">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+    <setting propertyKey="@Properties.pace_21" title="@Strings.Pace21Title">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+    <setting propertyKey="@Properties.pace_22" title="@Strings.Pace22Title">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+    <setting propertyKey="@Properties.pace_23" title="@Strings.Pace23Title">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+    <setting propertyKey="@Properties.pace_24" title="@Strings.Pace24Title">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+    <setting propertyKey="@Properties.pace_25" title="@Strings.Pace25Title">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+    <setting propertyKey="@Properties.pace_26" title="@Strings.Pace26Title">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+    <setting propertyKey="@Properties.pace_27" title="@Strings.Pace27Title">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+</settings>
