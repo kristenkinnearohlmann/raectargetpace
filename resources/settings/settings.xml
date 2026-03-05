@@ -1,11 +1,11 @@
 <settings>
     <setting propertyKey="@Properties.raceDistance" title="@Strings.RaceDistanceTitle">
         <settingConfig type="list">
-            <listEntry value="1mile">@Strings.Distance1Mile</listEntry>
-            <listEntry value="5k">@Strings.Distance5K</listEntry>
-            <listEntry value="10k">@Strings.Distance10K</listEntry>
-            <listEntry value="halfMarathon">@Strings.DistanceHalfMarathon</listEntry>
-            <listEntry value="marathon">@Strings.DistanceMarathon</listEntry>
+            <listEntry value="0">@Strings.Distance1Mile</listEntry>
+            <listEntry value="1">@Strings.Distance5K</listEntry>
+            <listEntry value="2">@Strings.Distance10K</listEntry>
+            <listEntry value="3">@Strings.DistanceHalfMarathon</listEntry>
+            <listEntry value="4">@Strings.DistanceMarathon</listEntry>
         </settingConfig>
     </setting>
     <setting propertyKey="@Properties.pace_1" title="@Strings.Pace1Title">
